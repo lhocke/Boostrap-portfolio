@@ -7,9 +7,9 @@ body {
   padding-bottom: 100px;
 }
 
-/** {
+/** {*/
   box-sizing: border-box;
-}*/
+}
 
 /* general */
 /*
@@ -71,6 +71,10 @@ h3 {
   background: #4aaaa5;
 }
 
+#nav-link {
+  margin-top: 20px;
+}
+
 /*#masthead {
   position: fixed;
   z-index: 99;
@@ -100,30 +104,29 @@ nav {
   float: right;
   margin-top: 25px;
 }
-
-nav a {
-  display: inline-block;
+*/
+.navbar a {
+  /*display: inline-block;*/
   padding-left: 15px;
-  margin-left: 15px;
+  /*margin-left: 15px;*/
   line-height: 18px;
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+/*.navbar a:first-child {
   border-left: 0 none;
-}
-*/
+}*/
+
 /* footer */
 
 #footer {
   padding: 30px 0;
   font-size: 12px;
-  color: #fff;
   color: #ccc;
   background: #666;
-  border-top: 8px solid #4aaaa5
+  border-top: 8px solid #4aaaa5;
   margin-bottom: 0;
 }
 
@@ -140,16 +143,16 @@ nav a:first-child {
 */
 /* sidebar */
 
-/*.sidebar {
+#sidebar {
   float: right;
   width: 100%;
   max-width: 270px;
-  padding: 30px;
+  padding: 0 30px 30px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
 }
-*/
+
 /*h3,
 .sidebar h2 {
   padding-bottom: 20px;
@@ -158,14 +161,14 @@ nav a:first-child {
   border-bottom: 2px solid #eee;
 }*/
 
-/*.social {
+#social {
   width: 62px;
   height: 62px;
-  margin-top: 8px;
+  /*margin-top: 8px;*/
   margin-right: 5px;
 }
 
-.social:last-child {
+/*.social:last-child {
   margin-right: 0;
 }*/
 
@@ -174,20 +177,18 @@ nav a:first-child {
 /*#main-container {
   padding-top: 130px;
 }
-
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
+*/
+#main-section {
+  /*max-width: 650px;*/
+  padding: 0 30px;
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-}*/
+}
 
 /* portfolio page */
 
-/*.work {
+.work {
   position: relative;
   float: left;
   width: 274px;
@@ -195,9 +196,9 @@ nav a:first-child {
   overflow: auto;
 }
 
-.work:nth-child(even) {
+/*.work:nth-child(even) {
   margin-right: 40px;
-}
+}*/
 
 .work img {
   width: 100%;
@@ -217,7 +218,7 @@ nav a:first-child {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}*/
+}
 
 #auth-image {
   float: left;
