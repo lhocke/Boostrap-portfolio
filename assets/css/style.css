@@ -5,21 +5,9 @@ body {
   color: #777;
   background: url("../images/concrete-texture.png");
   padding-bottom: 100px;
+
 }
 
-/** {*/
-  box-sizing: border-box;
-}
-
-/* general */
-/*
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
-*/
 h1,
 h2,
 h3,
@@ -52,7 +40,10 @@ h3 {
   border-bottom: 2px solid #eee;
   font-size: 22px;
 }
-
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
 /* header */
 
 .navbar {
@@ -117,7 +108,7 @@ nav {
 
 /*.navbar a:first-child {
   border-left: 0 none;
-}*/
+}
 
 /* footer */
 
@@ -146,20 +137,20 @@ nav {
 #sidebar {
   float: right;
   width: 100%;
-  max-width: 270px;
+  max-width: 300px;
   padding: 0 30px 30px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
 }
 
-/*h3,
-.sidebar h2 {
+h3,
+#sidebar h2 {
   padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
+  margin-bottom: 20px;
+  /*line-height: 22px;*/
   border-bottom: 2px solid #eee;
-}*/
+}
 
 #social {
   width: 62px;
@@ -179,8 +170,9 @@ nav {
 }
 */
 #main-section {
+  float: left;
   /*max-width: 650px;*/
-  padding: 0 30px;
+  padding: 0 30px 30px;
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
@@ -226,85 +218,6 @@ nav {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
-
-/* contact page */
-
-/*#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-}*/
-
-/*Making the page mobile responsive*/
-/*
-@media screen and (max-width: 980px) {
-  .container {
-    max-width: 750px;
-  }
-
-  .main-section {
-    max-width: 435px;
-  }
-
-  .auth-image {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .work {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .container, .sidebar{
-    max-width: 630px;
-  }
-
-  .main-section {
-    max-width: 100%;
-  }
-
-  .auth-image {
-    width: 300px;
-  }
-
-  .work {
-    width: 260px;
-  }
 }
 
 /*640px*/
