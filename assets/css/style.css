@@ -240,6 +240,29 @@ textarea {
 
 }
 
+@media screen and (max-width: 768px) {
+  .wrapper{
+    max-width: 630px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main-section{
+    max-width: 100%;
+    /*margin-left: auto;*/
+  }
+  #sidebar {
+    max-width: 100%;
+  }
+
+ /* #auth-image{
+    width: 300px;
+    margin-right: 10px;
+  }
+ */ 
+}
+
 
 /*640px*/
 
